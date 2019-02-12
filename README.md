@@ -10,7 +10,7 @@ This website is designed to provide a way to vend FAQ information about
 Tachiyomi via:
 
 - The website itself, accessed normally via a browser
-- The website itself, embedded within a WebView within the Android app
+- The website itself, embedded within a WebView in the Android app
 - A JSON interface capable of being consumed by various parts of the Android app
   to contextually display information
 
