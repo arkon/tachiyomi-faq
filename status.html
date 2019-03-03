@@ -4,3 +4,9 @@ permalink: /status/
 ---
 
 <h2>Status</h2>
+
+<ul>
+    {% for item in site.data.test %}
+    <li>{{ item }}</li>
+    {% endfor %}
+</ul>
