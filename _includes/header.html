@@ -1,11 +1,11 @@
-<header>
-    <section>
-        <span>{{site.title}}</span>
+<header class="site__header">
+    <section class="site__header__title">
+        <a href="{{ '/' | absolute_url }}">{{site.title}}</span>
     </section>
 
-    <section role="toolbar">
+    <nav class="site__header__nav" role="toolbar">
         <a href="{{ '/' | absolute_url }}">About</a>
         <a href="{{ '/sources' | absolute_url }}">Sources</a>
         <a href="{{ '/faq' | absolute_url }}">FAQ</a>
-    </section>
+    </nav>
 </header>

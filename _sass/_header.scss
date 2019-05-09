@@ -1,0 +1,20 @@
+.site__header {
+    background: $surface-02;
+    display: flex;
+    justify-content: space-between;
+    padding: $spacing-unit ($spacing-unit * 2);
+}
+
+.site__header__title {
+    font-weight: 600;
+
+    a {
+        color: $on-surface;
+    }
+}
+
+.site__header__nav {
+    a {
+        margin-left: 1em;
+    }
+}
